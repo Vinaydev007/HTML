@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>student form
+    </title>
+    <style>
+        body {
+            background-color: rgb(186, 177, 195);
+        }
+    </style>
+</head>
+
+<body>
+    <form>
+        <h1><mark>REGISTER FORM</mark>
+        </h1>
+        <label for="fname"><b>First Name:-</b</label>
+                <br>
+                <input readonly value="vinay" name="fname" id="fname" type="text" />
+
+                <br><br>
+                <label for="sname">Second Name:-</label>
+                <br>
+                <input autofocus required name="sname" id="sname" type="text" />
+                <br><br>
+                <label for="mobile">Mobile Number:-</label>
+                <br>
+                <input name="mobile" id="mobile" type="tel" pattern="[0-9]{10}" />
+
+                <br><br>
+                <label for="mail">Gmail:-</label>
+                <br>
+                <input id="mail" name="mail" type="email" placeholder="@gmail.com" />
+
+                <br><br>
+                <label for="password">Password:-</label>
+                <br>
+                <input id="password" name="password" type="password" pattern="[0-9]{10}" />
+
+                <br><br>
+                <label for="password">Re-enter password:-</label>
+                <br>
+                <input id="password" name="password" type="password" pattern="[0-9]{10}" />
+                <br>
+                <br>
+                <label for="date">DOB</label><br>
+                <input type="date" id="date" /><br><br>
+                <label for="dot">DOB and Time</label><br>
+                <input type="datetime-local" name="dot" id="dot" /><br><br>
+                <label for="sfile">upload file</label><br>
+                <input type="file" id="sfile" name="sfile" /><br><br>
+                <label for="rng">Range</label><br>
+                <input type="range" id="rng"><br><br>
+                <label for="color">color</label><br>
+                <input type="color" id="color"><br><br>
+
+                <label for="res">choice is urs</label>
+                <select name="select_dish" id="res">
+                    <optgroup label="veg">
+                        <option value="veg rice">veg fried rice</option>
+                        <option value="veg palav">palav</option>
+                        <option value="veg biryani">veg biryani</option>
+                        <option value="veg meals">veg meals</option>
+                    </optgroup>
+                    <optgroup label="non veg">
+                        <option value="cbiryani">chicken biryani</option>
+                        <option value="mbiryani">mutton biryani</option>
+                        <option value="mixed">mixed biryani</option>
+                        <option value="mogalai">chicken mogalai</option>
+                    </optgroup>
+                    <input style="color: red;" type="submit" />
+    </form>
+</body>
+
+</html>
