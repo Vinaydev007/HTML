@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign up</title>
+    <link rel="icon" href="../icons/add-friend.png" type="Image">
+    <style>
+        body {
+            background-color: darkkhaki;
+        }
+
+        div {
+            background-color: aqua;
+        }
+    </style>
+</head>
+
+<body>
+    <form>
+        <div>
+            <center>
+                <h1>SIGN-UP</h1>
+            </center>
+        </div>
+        <hr>
+        <ul>
+            <li><b><label for="Sname">FIRST NAME:</label>
+                    <input type="text" id="Sname" name=Sname>
+                    <label for="Mname">LAST NAME:</label>
+                    <input type="text" id="Mname" name="Mname">
+        </ul>
+        <ul>
+            <li><label for="number">ENTER PHONE NO:</label>
+                <input type="tel" id="number" name="number" pattern="[0-9]{10}">
+        </ul>
+        <ul>
+            <li>
+                <p>GENDER:</p>
+                <input type="radio" id="gen" value="male" name="gender">
+                <label for="gen">MALE</label>
+                <input type="radio" id="gen2" value="female" name="gender">
+                <label for="gen2">FEMALE</label>
+        </ul>
+        <ul>
+            <li><label for="date">DOB</label>
+                <input type="date" id="date" name="DOB">
+        </ul>
+        <ul>
+            <li><label for="cse">choose your coarse:</label>
+                <select name="coarse" id="cse">
+                    <option value="CSE">CSE</option>
+                    <option value="ECE">ECE</option>
+                    <option value="MECH">MECH</option>
+                    <option value="CIVIL">CIVIL</option>
+                </select><br>
+        </ul>
+        <ul>
+            <li><label for="mail">GMAIL:</label>
+                <input type="email" id="mail" name=mail placeholder="@gmail.com">
+        </ul>
+        <ul>
+            <li><label for="password">PASSWORD:</label>
+                <input type="password" id="password" name="pass" pattern="[0-9]{10}">
+        </ul>
+        <ul>
+            <li><label for="password">RE-ENTER-PASSWORD:</label>
+                <input type="password" id="password" name="pass" pattern="[0-9]{10}">
+        </ul>
+        <center>
+            <ul><input type="reset">
+                <button formaction="./day9/actiionform.html">register</button>
+            </ul>
+        </center>
+        <hr>
+    </form>
+</body>
+
+</html>
