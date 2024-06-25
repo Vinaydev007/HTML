@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actionform</title>
+    <style>
+      .box{ 
+        text-align:center;
+        width:auto;
+        background-color: antiquewhite;
+      }
+      body{
+        background-color: azure;
+      }
+      .color{
+        background-color: brown;
+      }
+      button{
+        background-color: rgb(170, 170, 180);
+      }
+
+    </style>
+</head>
+<body><div class="box">
+    <form action="https://app.ibomma.market/telugu-movies/">
+    <h1 style="text-align: center;"><b>Login</b></h1><hr>
+    <label for="user">User Name:</label>
+    <input type="text" id="user"name="text1"placeholder="Enter the username">
+    <br><br>
+    <label for="pass">Password:</label>
+    <input type="password" name="password" id="pass" placeholder="Enter the password" pattern="[0-9]{10}">
+    <br><br>
+    <div class="color"><button>Login</button>
+    <button formaction="../forms2.html">signup</button>
+    <button  formaction="./forgotform.html">forgot</button></div>
+</form></div>
+</body>
+</html>

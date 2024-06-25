@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forgot password</title>
+    <style>
+        body{
+            background-color: azure;
+        }
+        div{
+            text-align: center;
+            background-color: aqua;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <div>
+        <form>
+            <h1><b>Creating new password</b></h1>
+            <hr>
+            <label for="pass">Enter Password:</label>
+            <input type="password" id="pass" name="password" pattern="[0-9]{10}"><br><br>
+            <label for="conpass">confirm password:</label>
+            <input type="password" id="conpass" name="password1"pattern="[0-9]{10}"><br><br>
+
+            <label for="color">enter ur fav color:</label>
+            <input list="color" id="color" name="color"></input>
+            <datalist id="color">
+                <option value="white">
+                <option value="red">
+                <option value="blue">
+                <option value="green">
+            </datalist><br><br>
+            <button>reset</button>
+            <button formaction="./actiionform.html">submit</button>
+        </form></div>
+</body>
+
+</html>
